@@ -1,0 +1,35 @@
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.appbar-container {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.appbar-link-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0;
+  margin-left: auto;
+  align-items: center;
+}
+
+.appbar-link {
+  padding-right: 16px;
+}
+
+.appbar-link:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* img:hover {
+  cursor: pointer;
+} */

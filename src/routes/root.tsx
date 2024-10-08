@@ -28,7 +28,7 @@ export default function Root() {
         />
       </h2>
 
-      <div className="animate__animated animate__zoomInLeft animate__delay-3s container">
+      <div className="animate__animated animate__lightSpeedInLeft animate__delay-4s container">
         <img src={heroImg} className="hero-img" />
       </div>
     </>
