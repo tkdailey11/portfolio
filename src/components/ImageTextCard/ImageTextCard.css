@@ -3,7 +3,24 @@
     transition: 0.3s;
     border-radius: 16px; 
 
-    width: 500px;
-    height: 300px;
+    width: 90vw;
+    height: 60vh;
     background: whitesmoke;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 24px;
+    border-radius: 24px;
+    height: 90%;
+}
+
+.text-block {
+    margin: 24px;
+    width: 60%;
 }

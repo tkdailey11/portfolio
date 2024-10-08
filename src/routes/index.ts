@@ -1,9 +1,9 @@
-import Root from "./root";
-import Error from "./error-page";
+import Root from "./root/root";
+import Error from "./error/error-page";
 import About from "./about/about";
-import Contact from "./contact";
-import Portfolio from "./portfolio";
-import Resume from "./resume";
+import Contact from "./contact/contact";
+import Portfolio from "./portfolio/portfolio";
+import Resume from "./resume/resume";
 
 export const RootPage = Root;
 export const ErrorPage = Error;

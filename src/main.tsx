@@ -1,40 +1,35 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./routes/about/about";
-import Contact from "./routes/contact";
-import Error from "./routes/error-page";
-import Portfolio from "./routes/portfolio";
-import Resume from "./routes/resume";
-import Root from "./routes/root";
-import AppBar from "./components/AppBar/AppBar";
+import { AboutPage, ContactPage, ErrorPage, PortfolioPage, ResumePage, RootPage } from "./routes";
+import {AppBar} from "./components";
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root />,
-    errorElement: <Error />,
+    element: <RootPage />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/about',
-    element: <About />,
-    errorElement: <Error />,
+    element: <AboutPage />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/portfolio',
-    element: <Portfolio />,
-    errorElement: <Error />,
+    element: <PortfolioPage />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/resume',
-    element: <Resume />,
-    errorElement: <Error />,
+    element: <ResumePage />,
+    errorElement: <ErrorPage />,
   },
   {
     path: '/contact',
-    element: <Contact />,
-    errorElement: <Error />,
+    element: <ContactPage />,
+    errorElement: <ErrorPage />,
   }
 ]);
 
