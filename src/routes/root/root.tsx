@@ -2,7 +2,6 @@ import "./root.css";
 import heroImg from "../../assets/headshot_circle.png"
 import "animate.css";
 import TypingEffect from "react-typed.ts";
-import React from "react";
 
 export default function Root() {
   return (
@@ -19,7 +18,7 @@ export default function Root() {
 
       <h2 className="center-text">
         <TypingEffect
-          strings={["Husband, Father, Software Engineer, Sports Enthusiast"]}
+          strings={["Husband, Father, Software Engineer"]}
           typeSpeed={40}
           backSpeed={0}
           loop={false}

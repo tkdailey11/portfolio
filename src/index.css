@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -14,4 +18,39 @@ h1 {
 
 .center-text {
   text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grow-Shrink-Basis */
+.flex-1-1-1 {
+  flex: 1 1 1;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 16px; 
+
+  width: 90vw;
+  height: 60vh;
+  background: whitesmoke;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
 }

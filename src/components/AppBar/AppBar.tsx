@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./AppBar.css";
 import logo from "../../assets/logo_circle.png";
 

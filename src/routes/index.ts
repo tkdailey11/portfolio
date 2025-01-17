@@ -18,5 +18,5 @@ export default {
   AboutPage,
   ContactPage,
   PortfolioPage,
-  ResumePage,
+  ResumePage
 };
